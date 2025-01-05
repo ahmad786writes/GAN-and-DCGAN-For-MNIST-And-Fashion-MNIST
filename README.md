@@ -5,6 +5,7 @@
 This repository contains implementations of two projects showcasing Generative Adversarial Networks (GANs) for generating image data. Both projects leverage TensorFlow/Keras and explore different architectures to generate synthetic images.
 
 ### 1. **Simple GAN for MNIST**
+![GAN](images/GANs.png)
    - Implements a basic GAN architecture to generate synthetic handwritten digits using the MNIST dataset.
    - The GAN consists of:
      - **Generator**: A feedforward neural network that learns to generate realistic-looking images.
@@ -12,6 +13,7 @@ This repository contains implementations of two projects showcasing Generative A
    - The training process involves adversarial learning, where the generator improves by "fooling" the discriminator.
 
 ### 2. **DCGAN for Fashion MNIST**
+![DCGAN](images/DCGAN.png)
    - Implements a Deep Convolutional GAN (DCGAN) to generate synthetic fashion-related images using the Fashion MNIST dataset.
    - Key Features of DCGAN:
      - Convolutional and transposed convolutional layers in the generator.
@@ -87,12 +89,12 @@ GAN-and-DCGAN-Architectures/
 ### Simple GAN for MNIST
 Sample generated images after training:
 
-![Simple GAN Results](outputs/simple_gan/sample_image.png)
+![Simple GAN Results](images/mnist_results.png)
 
 ### DCGAN for Fashion MNIST
 Sample generated images after training:
 
-![DCGAN Results](outputs/dcgan/sample_image.png)
+![DCGAN Results](images/fashionmnist_results.png)
 
 ---
 
