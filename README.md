@@ -47,25 +47,22 @@ cd GAN-and-DCGAN-Architectures
 ```
 
 ### Running the Simple GAN
-1. Navigate to the `simple_gan` directory.
-2. Run the script:
-
+1. Open the script in jupyter notebook:
    ```bash
-   python simple_gan.py
+   GANs for MNIST.ipynb
    ```
-3. Outputs:
-   - Generated images will be saved in the `outputs/simple_gan/` directory.
+2. Outputs:
+   - Generated images will be saved in the specified directory.
    - Training logs will be displayed on the console.
 
 ### Running the DCGAN
-1. Navigate to the `dcgan` directory.
-2. Run the script:
+1. Open the script in jupyter notebook:
 
    ```bash
-   python dcgan.py
+   DCGANS for Fashion_MNIST.ipynb
    ```
 3. Outputs:
-   - Generated images will be saved in the `outputs/dcgan/` directory.
+   - Generated images will be saved in the specified directory.
    - Training logs will be displayed on the console.
 
 ---
@@ -75,16 +72,12 @@ cd GAN-and-DCGAN-Architectures
 ```
 GAN-and-DCGAN-Architectures/
 |
-|-- simple_gan/
-|   |-- simple_gan.py        # Implementation of Simple GAN
-|   |-- outputs/             # Directory for generated images
+|-- GANs for MNIST.ipynb              # Implementation of Simple GAN
 |
-|-- dcgan/
-|   |-- dcgan.py             # Implementation of DCGAN
-|   |-- outputs/             # Directory for generated images
+|-- DCGANS for Fashion_MNIST.ipynb    # Implementation of DCGANS
 |
 |-- README.md
-|-- requirements.txt         # List of dependencies
+|-- Images                            # Results and Architecture Images
 ```
 
 ---
@@ -105,7 +98,7 @@ Sample generated images after training:
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This repository is licensed under the MIT License.
 
 ---
 
