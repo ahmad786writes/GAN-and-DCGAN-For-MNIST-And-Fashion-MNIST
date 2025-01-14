@@ -1,4 +1,4 @@
-# Repository Name: **GAN-and-DCGAN-Architectures**
+# **GAN-and-DCGAN-Architectures**
 
 ## Overview
 
